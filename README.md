@@ -1,6 +1,6 @@
 ## Study of solar prosumer electricity exchange resiliency
 
-Visit the first implementation [here](https://git-toni.github.io/solar-exchange)
+Visit the first implementation [here](https://git-toni.github.io/solar-exchange/)
 
 ### Description
 
