@@ -1,0 +1,48 @@
+@import "./colors.scss";
+
+.chart-block.line-chart{
+  .c3-axis-y{
+    .c3-axis-y-label{
+      font-size: 1.4em; 
+      fill: #0BA58C;
+    }
+    .tick{
+      fill: #0BA58C;
+      font-size: 1.3em;
+    }
+    path.domain{
+      stroke: $grey;
+      stroke-width: 0.2em;
+    }
+  }
+  .c3-axis-x{
+    path.domain{
+      stroke: $grey;
+      stroke-width: 0.2em;
+    }
+    .tick{
+      font-size: 1.3em;
+      fill: $grey;
+    }
+  }
+  .c3-axis-y2{
+    path.domain{
+      stroke: $grey;
+      stroke-width: 0.2em;
+    }
+    .c3-axis-y2-label{
+      font-size: 1.4em; 
+      fill: #FD6F5B;
+    }
+    .tick{
+      font-size: 1.3em;
+      fill: #FD6F5B;
+    }
+  }
+
+  .c3-line{
+    //stroke: #0BA58C;
+    stroke-width: 0.4em;
+    stroke-linecap: round;
+  }
+}
